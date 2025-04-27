@@ -35,7 +35,35 @@ body{
 
 /* CONTAINER - AVATAR */
 
+.container-avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
 
+    width: 100%;
+    height: 32px;
+}
+
+.container-avatar-figure{
+    width: 32px;
+    height: 100%;
+}
+
+.container-avatar-photo{
+    background-image: url("../image/image-avatar.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container-avatar-name{
+    font-size: 14px;
+    font-weight: 800;
+}
 
 /* BREAKPOINTS */
 
