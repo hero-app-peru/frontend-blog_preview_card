@@ -1,0 +1,46 @@
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: #f4d04e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+/* CONTAINER */
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 411px;
+    box-shadow: 8px 8px 0 0 black;
+    border-width: 1px;
+    border-style: solid ;
+    border-color: #111;
+    border-radius: 20px;
+    padding: 20px;
+    row-gap: 24px;
+}
+
+/* CONTAINER - IMAGE*/
+
+
+
+/* CONTAINER - CONTENT*/
+
+
+
+/* CONTAINER - AVATAR */
+
+
+
+/* BREAKPOINTS */
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: 330px;
+    }    
+}
